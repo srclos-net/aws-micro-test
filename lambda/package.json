@@ -1,0 +1,20 @@
+{
+  "name": "lamda-recv",
+  "version": "1.0.0",
+  "description": "This receives the messages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "nodejs index.js",
+    "build": "echo \"not done\""
+  },
+  "author": "stephanie.closson@grafana.com",
+  "license": "MIT",
+  "dependencies": {
+    "@opentelemetry/node": "^0.24.0",
+    "@opentelemetry/tracing": "^0.24.0",
+    "@opentelemetry/exporter-trace-otlp-http": "^0.57.1",
+    "@opentelemetry/resources": "^1.30.1",
+    "@opentelemetry/semantic-conventions": "^1.29.0"
+  }
+}
